@@ -57,3 +57,5 @@ third = Runner('Арсен', 10)
 t = Tournament(101, first, second)
 print(t.start())
 
+
+
