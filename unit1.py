@@ -3,7 +3,6 @@ import logging
 
 class Runner:
     def __init__(self, name, speed=5):
-        self.speed = speed
         if isinstance(name, str):
             self.name = name
         else:
