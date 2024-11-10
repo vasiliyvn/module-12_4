@@ -3,6 +3,8 @@ from unittest import TestCase
 import unit1
 import unittest
 
+logging.basicConfig(level=logging.INFO, filemode="w", filename='runner_tests.log',
+                            encoding='utf-8', format='%(levelname)s | %(asctime)s | %(message)s')
 
 class RunnerTest(TestCase):
     def test_walk(self):
@@ -37,6 +39,4 @@ class RunnerTest(TestCase):
 
 
 if __name__ == "__main__":
-    # unittest.main()
-    logging.basicConfig(level=logging.INFO, filemode="w", filename='runner_tests.log',
-                            encoding='utf-8', format='%(levelname)s | %(asctime)s | %(message)s')
+    unittest.main()
