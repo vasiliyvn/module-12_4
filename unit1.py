@@ -51,7 +51,7 @@ class Tournament:
 
         return finishers
 
-first = Runner('Вaся', -10)
+first = Runner('Вaся', 10)
 second = Runner('Илья', 5)
 third = Runner('Арсен', 10)
 t = Tournament(101, first, second)
